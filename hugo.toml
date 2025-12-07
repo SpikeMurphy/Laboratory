@@ -6,3 +6,6 @@ title = 'Laboratory'
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[security]
+  enableInlineShortcodes = true
