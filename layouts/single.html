@@ -4,6 +4,9 @@
         <h3>This page will be available soon.</h3>
     {{ else }}
         {{ .Content }}
+        <div style="text-align: right;">
+        <br>
         {{ .Params.updated }} {{ .Params.version}}
+        </div>
     {{ end }}
 {{end}}

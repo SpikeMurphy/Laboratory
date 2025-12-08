@@ -1,10 +1,83 @@
 +++
 date = '2025-12-07T20:19:30+01:00'
-draft = true
+draft = false
 construction = false
-title = 'Methodes'
+title = 'Methodes Template'
 subtitle = ''
-author = 'Spike Murphy Müller'
-version = '1.0'
-updated = ''
+author = 'Spike Murphy Müller ¹'
+facility = '¹ Center for Experimental Medicine, Institute of Biochemistry and Signal Transduction, Working Group Signal Transduction in Cancer'
+version = 'Version 1.0'
+updated = '08.12.2025'
 +++
+
+{{< infobox type="info" title="" >}}
+⚠️ Info
+{{< /infobox >}}
+
+{{< infobox type="warning" title="" >}}
+❗️ Attention
+{{< /infobox >}}
+
+{{< infobox type="danger" title="" >}}
+‼️ Danger
+{{< /infobox >}}
+
+{{< tab >}}
+## Materials
+| Equipment & Devices⠀⠀⠀ | Specifications| Location |
+| :-- | :-- | :-- |
+| [Device <sup>manual</sup>](https://www.website.com/.../) |  |  |
+|  |  |  |
+
+| Commercial Kits⠀⠀⠀⠀⠀⠀ | Specifications| Location |
+| :-- | :-- | :-- |
+| [Kit <sup>manual</sup>](https://www.website.com/.../) |  |  |
+|  |  |  |
+
+| Containers & Consumables | Specifications| Location |
+| :-- | :-- | :-- |
+|  |  |  |
+
+| Reagents & Solutions⠀⠀⠀⠀ | Specifications| Location |
+| :-- | :-- | :-- |
+|  |  |  |
+|  |  |  |
+
+| Biological Materials⠀⠀⠀⠀⠀ | Specifications| Location |
+| :-- | :-- | :-- |
+|  |  |  |
+|  |  |  |
+
+{{< /tab >}}
+
+{{< tab >}}
+## Procedure:
+### Heading 1:
+1.	
+2.  
+{{< infobox type="info" title="" >}}
+⚠️ Info
+{{< /infobox >}}
+
+3. 
+4. 
+### Heading 2:
+1.  
+2.  
+{{< infobox type="warning" title="" >}}
+❗️ Attention
+{{< /infobox >}}
+
+3. 
+4. 
+
+### Heading 3:
+1.  
+2.  
+{{< infobox type="danger" title="" >}}
+‼️ Danger
+{{< /infobox >}}
+
+3. 
+4. 
+{{< /tab >}}

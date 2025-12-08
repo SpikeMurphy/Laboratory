@@ -4,7 +4,8 @@ draft = true
 construction = false
 title = 'SDS-PAGE Tris-Glycin Towbin Transfer Buffer Stock 10x'
 subtitle = ''
-author = 'Spike Murphy Müller'
-version = '1.0'
+author = 'Spike Murphy Müller ¹'
+facility = '¹ Center for Experimental Medicine, Institute of Biochemistry and Signal Transduction, Working Group Signal Transduction in Cancer'
+version = 'Version 1.0'
 updated = ''
 +++

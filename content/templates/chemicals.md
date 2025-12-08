@@ -1,0 +1,12 @@
++++
+date = '2025-12-08T01:50:35+01:00'
+draft = true
+construction = false
+title = 'Chemicals Template'
+subtitle = ''
+author = 'Spike Murphy Müller ¹'
+facility = '¹ Center for Experimental Medicine, Institute of Biochemistry and Signal Transduction, Working Group Signal Transduction in Cancer'
+version = 'Version 1.0'
+updated = ''
++++
+

@@ -4,7 +4,8 @@ draft = false
 construction = false
 title = 'Ampicillin Stock 100 mg/mL'
 subtitle = ''
-author = 'Spike Murphy Müller'
+author = 'Spike Murphy Müller ¹'
+facility = '¹ Center for Experimental Medicine, Institute of Biochemistry and Signal Transduction, Working Group Signal Transduction in Cancer'
 version = 'Version 1.0'
 updated = '05.09.2025'
 +++
@@ -15,7 +16,7 @@ updated = '05.09.2025'
 ## Materials
 | Material | Molecular Weight | Specifications | Location |
 | :---- | :----- | :----- | :----- |
-| ampicillin | 349.406 g/mol  | solid | |
+| [ampicillin <sup>SDB</sup>](https://www.carlroth.com/medias/SDB-HP62-DE-EN.pdf?context=bWFzdGVyfHNlY3VyaXR5RGF0YXNoZWV0c3wyNTk2NzZ8YXBwbGljYXRpb24vcGRmfGFEQTRMMmc0WVM4NU1qQTJPRGN6T0RRNU9EZzJMMU5FUWw5SVVEWXlYMFJGWDBWT0xuQmtaZ3w4M2I0OGFmMGQ5ZDkyMzhkNDYyYWQwZDcwZDU5MzllMjgwMDhkYzYzMzY1ZDY2ZTZjM2IzMGEyMDUyMTlkYjgz) | 349.406 g/mol  | solid | |
 | dsH<sub>2</sub>O | 18.015 g/mol | liquid | |
 | syringe filter | | 0.22 µm | |
 
