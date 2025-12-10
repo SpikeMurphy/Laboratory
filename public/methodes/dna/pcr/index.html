@@ -10,6 +10,8 @@
 <script src="/Laboratory/js/age_buffer_select.js"></script>
 <script src="/Laboratory/js/age_mastermix_prep_calc.js"></script>
 <script src="/Laboratory/js/age_sample_prep_calc.js"></script>
+<script src="/Laboratory/js/pcr_mastermix_prep_calc.js"></script>
+<script src="/Laboratory/js/age_following_pcr_buffer.js"></script>
 
 <body>
 
@@ -25,7 +27,7 @@
 </nav>
 
     <header>
-    <h1>PCR with Fusion Hot Start II DNA Polymerase</h1>
+    <h1>Polymerase Chain Reaction (PCR) with Fusion Hot Start II DNA Polymerase</h1>
 
     
 
@@ -257,7 +259,7 @@ T<sub>a</sub> = T<sub>m</sub>– 4</p>
 <h3 id="preparing-the-samples-and-running-the-program">Preparing the Samples and Running the Program:</h3>
 <div class="infobox info">
   <strong></strong>
-  <div>⚠️ Prepare a mastermix when doing multiple samples containing dsH<sub>2</sub>O, GC buffer, DMSO and dNTP. Use number of samples plus at least one for the mastermix volume multiplyer.</div>
+  <div>ℹ️ Prepare a mastermix when doing multiple samples containing dsH<sub>2</sub>O, GC buffer, DMSO and dNTP. Use number of samples plus at least one for the mastermix volume multiplyer.</div>
 </div>
 <ol>
 <li><input type="checkbox"> Prepare a Mastermix:</li>
@@ -312,11 +314,8 @@ T<sub>a</sub> = T<sub>m</sub>– 4</p>
 </table>
 <p>
   Number of samples:
-  <input type="number" id="factor2" value="1" min="0" step="1" style="width:70px;">
-  <button id="calc-pcr">Calculate</button>
+  <input type="number" id="sample-count" value="1" min="0" style="width:60px;">
 </p>
-<div id="pcr-generated-output"></div>
-<script src="/Laboratory/js/factor_pcr.js"></script>
 <ol start="2">
 <li><input type="checkbox"> Prepare samples with mastermix by pipetting the following volumes into a 0.5 mL PCR tube:</li>
 </ol>

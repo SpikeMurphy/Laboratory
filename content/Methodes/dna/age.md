@@ -100,13 +100,13 @@ todo = true
 
 ### Preparing the DNA:
 {{< infobox type="info" title="" >}}
-⚠️ Prepare a mastermix when doing multiple samples with similar DNA concentration containing dsH<sub>2</sub>O and DNA loading buffer 5x. Use number of samples plus at least one for the mastermix volume multiplyer.
+ℹ️ Prepare a mastermix when doing multiple samples with similar DNA concentration containing dsH<sub>2</sub>O and DNA loading buffer 5x. Use number of samples plus at least one for the mastermix volume multiplyer.
 {{< /infobox >}}
 1. <input type="checkbox"> Prepare a Mastermix:
 
 |  | Volume V [µL] | Reagent | Concentration c<sub>1</sub> [ng/µL] <br> Mass m<sub>1</sub> [ng] | Concentration c<sub>2</sub> [ng/µL] <br> Mass m<sub>2</sub> [ng] |
 | :-- | :-- | :-- | :-- | :-- | :-- |
-| <input type="checkbox"> | <span  id="buffer-vol" class="age_mm" data-base="1">1</span> µL | DNA loading buffer | {{< age_buffer_select target="buffer-vol" >}} |  |
+| <input type="checkbox"> | <span  id="buffer-vol" class="age_mm" data-base="1">1</span> µL | DNA loading buffer | {{< age_mastermix_buffer_select target="buffer-vol" >}} |  |
 | <input type="checkbox"> | <span id="h2o-vol" class="age_mm" data-base="3">3</span> µL | dsH<sub>2</sub>O |  |  |
 | <input type="checkbox"> | = <span class="age_mm" data-base="4">4</span> µL |  |  |  |  
 

@@ -2,7 +2,7 @@
 date = '2025-12-08T15:42:59+01:00'
 draft = false
 construction = false
-title = 'PCR with Fusion Hot Start II DNA Polymerase'
+title = 'Polymerase Chain Reaction (PCR) with Fusion Hot Start II DNA Polymerase'
 subtitle = ''
 author = 'Spike Murphy Müller ¹'
 facility = '¹ Center for Experimental Medicine, Institute of Biochemistry and Signal Transduction, Working Group Signal Transduction in Cancer'
@@ -93,7 +93,7 @@ t<sub>e</sub> = bp/1000 × 30 sec
 
 ### Preparing the Samples and Running the Program:
 {{< infobox type="info" title="" >}}
-⚠️ Prepare a mastermix when doing multiple samples containing dsH<sub>2</sub>O, GC buffer, DMSO and dNTP. Use number of samples plus at least one for the mastermix volume multiplyer.
+ℹ️ Prepare a mastermix when doing multiple samples containing dsH<sub>2</sub>O, GC buffer, DMSO and dNTP. Use number of samples plus at least one for the mastermix volume multiplyer.
 {{< /infobox >}}
 
 1. <input type="checkbox"> Prepare a Mastermix:
@@ -105,7 +105,7 @@ t<sub>e</sub> = bp/1000 × 30 sec
 | <input type="checkbox"> | <span class="pcr" data-base="1.5">1.5</span> µL | DMSO | 100 % |  |
 | <input type="checkbox"> | <span class="pcr" data-base="1">1</span> µL | dNTP mix | 10 mM | 200 µM |
 |  | = <span class="pcr" data-base="43">43</span> µL |  |  |  |
-{{< pcr-factor >}}
+{{< pcr_mastermix_prep_calc >}}
 2. <input type="checkbox"> Prepare samples with mastermix by pipetting the following volumes into a 0.5 mL PCR tube:
 
 |  | Volume V [µL] | Reagent | c<sub>1</sub>/m<sub>1</sub> | c<sub>2</sub>/m<sub>2</sub> |

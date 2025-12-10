@@ -95,7 +95,7 @@ updated = '09.12.2025'
 ### Preparing the DNA:
 1.	<input type="checkbox"> Mix the whole PCR reaction mixture with the appropriate amount of DNA loading buffer.
 {{< infobox type="info" title="DNA Loading Buffer Volume Calculator" >}}
-{{< age_pcr-buffer >}}
+{{< age_following_pcr_buffer >}}
 {{< /infobox >}}
 
 ### Running the Gel:
