@@ -11,37 +11,18 @@ version_explaination = 'first: major revisions - second: minor revisions - third
 updated = ''
 +++
 
-<!-- -->
-
-{{< timer time="0:00:30" >}}
-
-{{< infobox type="info" title="" >}}
-⚠️ Info
-{{< /infobox >}}
-
-{{< infobox type="warning" title="" >}}
-❗️ Attention
-{{< /infobox >}}
-
-{{< infobox type="danger" title="" >}}
-‼️ Danger
-{{< /infobox >}}
-
 {{< tab >}}
 ## Materials
 | Equipment & Devices⠀⠀⠀ | Amount | Specifications| Location |
 | :-- | :-- | :-- | :-- |
-| [Device <sup>manual</sup>](link) |  |  |  |
-|  |  |  |  |
+| shaker incubator |  |  |  |
+| photometer |  | for measuring OD<sub>600</sub> |  |
 |  |  |  |  |
 |  |  |  |  |
 
 | Commercial Kits⠀⠀⠀⠀⠀⠀ | Amount | Specifications| Location |
 | :-- | :-- | :-- | :-- |
-| [Kit <sup>manual</sup>](link) |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
+
 
 | Containers & Consumables | Amount | Specifications| Location |
 | :-- | :-- | :-- | :-- |
@@ -68,19 +49,22 @@ updated = ''
 
 {{< tab >}}
 ## Procedure:
-### Heading 1:
-1. <input type="checkbox">
-2. <input type="checkbox">
-3. <input type="checkbox">
-4. <input type="checkbox">
-### Heading 2:
-1. <input type="checkbox">
-2. <input type="checkbox">
-3. <input type="checkbox">
-4. <input type="checkbox">
-### Heading 3:
-1. <input type="checkbox">
-2. <input type="checkbox">
-3. <input type="checkbox">
-4. <input type="checkbox">
+### Preparation:
+1. <input type="checkbox"> [Transform a suitable strain of bacteria]({{< relref "methodes/bacteria/transformation.md" >}}) and plate transformed bacteria on a LB-agar Plate containing appropriate selection markers (Antibiotic, X-Gal).
+2. <input type="checkbox"> Prepare 6 mL LB-medium per clone.
+### Culture:
+1. <input type="checkbox"> Transfer 1 mL of the 6 mL LB medium into a photometer cuvette for the zero value.
+2. <input type="checkbox"> Prepare 5 mL of LB-medium with suitable antibiotic.
+3. <input type="checkbox"> Pick a suitable clone with pipette tip.
+4. <input type="checkbox"> Optionally streak pipette tip over fresh plate as a backup.
+5. <input type="checkbox"> Drop pipette tip into LB-antibiotic-medium.
+6. <input type="checkbox"> Incubate culture @ 37 °C and shaking @ 250 rpm for approximately 2–4 h until an OD<sub>600</sub> ~ 0.4–0.8 (best 0.6) is reached or incubate @ 30 °C and shaking @ 250 rpm overnight.
+<div style="display:flex; gap:20px; align-items:center;">
+{{< timer time="2:00:00" >}}
+{{< timer time="3:00:00" >}}
+{{< timer time="4:00:00" >}}
+</div>
+
+### Proceed with the appropriate Plasmid Prep Protocol
+- [NucleoSpin® Plasmid Preparation]({{< relref "/methodes/dna/nucleospin_plasmid_prep.md" >}})
 {{< /tab >}}

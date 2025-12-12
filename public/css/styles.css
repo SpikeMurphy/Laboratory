@@ -174,49 +174,69 @@ main {
 }
 /* ========== Main (light) ========== */
 /* ========== Footer (light) ========== */
-footer {
-    align-items: center;
+.site-footer {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     background: linear-gradient(90deg, #1f2937ee, #111827ee);
-    text-align: center;
-    padding: 5px 10%;
+    padding: 15px 10%;
     font-size: 0.8rem;
-}
-div.footer{
     color: #d2e9ff;
+    box-shadow: 0 -2px 6px rgb(116, 136, 162);
 }
-ul.footer{
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-}
-li.footer{
-    list-style: none;
-    display: flex;
-    align-items: center;
-}
-svg.footer {
-    width: 20px;
-    height: 20px;
-    stroke: currentColor;
-    color: #d2e9ff;
-    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
-}
-li.footer a:hover svg {
-    transform: scale(1.2);
+.footer-rights {
     color: #3b82f6;
+    font-weight: 400;
+}
+.footer-nav {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-nav li {
+    list-style: none;
+}
+.footer-nav a {
+    color: #d2e9ff;
+    text-decoration: none;
+    font-weight: 500;
+    padding-bottom: 2px;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+.footer-nav a:hover {
+    color: #3b82f6;
+    border-bottom: 2px solid #3b82f6;
+}
+.footer-controls {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 .language_button a {
     color: #d2e9ff;
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 .language_button a:hover {
-  color: #3b82f6;
-  text-decoration: underline;
+    color: #3b82f6;
+    text-decoration: underline;
 }
-/* ========== Footer (light) ========== */
+.footer-controls svg {
+    width: 20px;
+    height: 20px;
+    color: #d2e9ff;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.footer-controls a:hover svg {
+    transform: scale(1.2);
+    color: #3b82f6;
+}
+/* ========== Footer (light) END ========== */
 /* ========== Countdown Timer (light) ========== */
 .countdown-display {
     font-family: "Inter", sans-serif;
@@ -523,6 +543,10 @@ body.darkmode footer {
     background: linear-gradient(90deg, #111827, #000000);
     box-shadow: 0 2px 6px rgb(29, 47, 68);
     color: #c2e1ff;
+}
+body.darkmode .footer-rights {
+    color: #d2e9ff;
+    font-weight: 400;
 }
 /* ========== Footer (dark) ========== */
 /* ========== Countdown Timer (dark) ========== */

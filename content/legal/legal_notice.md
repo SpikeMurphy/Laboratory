@@ -5,53 +5,91 @@ construction = true
 title = 'Legal Notice'
 subtitle = ''
 author = 'Spike Murphy Müller'
-version = 'Version 1.0'
-updated = ''
+version = 'Version 1.0.0'
+updated = '12.12.2025'
 +++
 
-## Legal Notice according to § 5 TMG
+## LEGAL NOTICE (Impressum) pursuant to § 5 TMG, § 55 RStV / § 18(2) MStV, GmbHG
 
-### Operator of this Website:
-**Spike Murphy Müller**  
-Martinistraße 52  
-20246 Hamburg  
+**Murphy Biochemistry UG (haftungsbeschränkt)**  
+[Street + House Number]  
+[Postal Code] [City]  
 Germany  
-Tel.  +49 40 7410 - 53396  
-E-Mail:  spike.mueller@stud.uke.uni-hamburg.de  
-### Responsible for content according to § 18 Abs. 2 MStV:
-**Spike Murphy Müller**  
-Martinistraße 52  
-20246 Hamburg  
+
+## Represented by (Authorized Representative)
+Managing Director:  
+**[Full Name]**  
+
+## Contact  
+Email: [Email Address]  
+Phone: [Phone Number]  
+
+## Commercial Register Entry  
+Registered in the Commercial Register.  
+Register Court: [Register Court, e.g., Amtsgericht Berlin-Charlottenburg]  
+Commercial Register Number: HRB [Number]  
+
+## VAT ID  
+VAT Identification Number according to § 27a German VAT Act (UStG):  
+[VAT ID]
+
+## Responsible for Content pursuant to § 18(2) MStV  
+[Full Name]  
+[Street + House Number]  
+[Postal Code] [City]  
 Germany  
-Tel.  +49 40 7410 - 53396  
-E-Mail:  spike.mueller@stud.uke.uni-hamburg.de  
-## Disclaimer
-### Liability for Content
-The contents of this website and the associated GitHub repository are created with great care.
-However, no guarantee can be given for the accuracy, completeness, or timeliness of the information provided.
-As a private service provider, I am responsible for my own content on these pages in accordance with § 7 (1) TMG. According to §§ 8 to 10 TMG, I am not obliged to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity.
-Obligations to remove or block information under general laws remain unaffected.
-Liability is only possible from the moment knowledge of a concrete infringement is obtained. Upon becoming aware of such violations, the relevant content will be removed promptly.
-### Liability for Links
-This website may contain links to external third-party websites over which I have no control.
-Therefore, I cannot accept any responsibility for such external content.
-The respective provider or operator of the linked pages is always responsible for their content.
-Linked pages were checked for potential legal violations at the time of linking; unlawful content was not recognizable at that time.
-A permanent content check of linked pages is not reasonable without specific indications of legal violations.
-If any infringements become known, such links will be removed immediately.
-### Copyright
-All content created by the operator of this website is subject to copyright law.
-Reproduction, editing, distribution, or any form of utilization outside the limits of copyright law requires prior written permission.
-Downloads and copies of these pages are permitted only for private, non-commercial use.
-Where content on this website originates from third parties, their copyrights are respected and such content is marked accordingly.
-If you become aware of any copyright infringement, please notify me.
-Upon notification of a violation, such content will be removed promptly.
-### Use at Your Own Risk
-This website provides general documentation, descriptions, and reference information, including SOPs and methodological notes related to biochemical laboratory work.
-All information is intended solely for trained individuals who already understand laboratory safety and regulatory requirements.
-Despite careful preparation, the information may be incomplete, outdated, or inaccurate.
-The operator assumes no liability for damages, errors, or consequences arising from the use of any information found on this site.
-Use of all content is entirely at your own risk.
-Always follow institutional safety guidelines, legal regulations, and official documentation.
+
+## EU Online Dispute Resolution  
+The European Commission provides an Online Dispute Resolution (ODR) platform:  
+https://ec.europa.eu/consumers/odr/  
+We are not willing and not obliged to participate in dispute resolution proceedings before a consumer arbitration board.  
+
+## Disclaimer  
+### Liability for Content  
+The contents of this website and the associated GitHub repository are created with the greatest possible care.  
+However, we assume no liability for the accuracy, completeness, or timeliness of the provided information.
+
+As a service provider, we are responsible for our own content on these pages in accordance with § 7(1) TMG under general laws.  
+According to §§ 8 to 10 TMG, we are not obligated to monitor transmitted or stored third-party information or to investigate circumstances indicating illegal activity.
+
+Obligations to remove or block the use of information under general laws remain unaffected.  
+However, liability in this respect is only possible from the point in time at which a concrete infringement becomes known.  
+Upon becoming aware of such legal violations, we will remove the affected content immediately.
+
+## Liability for Links  
+Our website contains links to external third-party websites over whose content we have no control.  
+Therefore, we cannot assume any liability for such external content.
+
+The respective provider or operator of the linked pages is always responsible for their content.  
+Linked pages were checked for possible legal violations at the time of linking; no unlawful content was identifiable at that time.
+
+Permanent monitoring of the content of linked pages is not reasonable without specific indications of a legal infringement.  
+If we become aware of any legal violations, we will remove such links immediately.
+
+## Copyright  
+All content and works created by the operators of this website (including SOPs, protocols, methodological descriptions, texts, data, graphics, and source code) are subject to German copyright law.
+
+Reproduction, editing, distribution, or any form of use outside the limits of copyright law requires the prior written consent of the respective author or creator.
+
+Downloads and copies of this site are permitted only for private, non-commercial use.  
+Where content is not created by the operator, third-party copyrights are respected and identified accordingly.
+
+If you nevertheless notice a copyright infringement, please notify us.  
+Upon becoming aware of such violations, we will remove the affected content immediately.
+
+## Use at Your Own Risk  
+This website provides general documentation, descriptions, recipes, methodological notes, and SOPs in the field of biochemistry and laboratory practice.
+
+All information is intended exclusively for trained personnel with appropriate education, safety knowledge, and regulatory understanding.  
+Despite careful preparation, content may be incomplete, outdated, or contain errors.
+
+The operator assumes no liability for damages, mistakes, misapplications, or consequences arising from the use of the information.
+
+All content is used entirely at your own risk.  
+Official regulations, safety data sheets (SDS), local work instructions, legal requirements, and institutional/company guidelines must always be observed.
+
+## Note on Access Restrictions  
+Some content on this website requires an access code.  
+Only technically necessary cookies are used to ensure access security in accordance with Art. 6(1)(f) GDPR.
 
 [🇩🇪 Deutsche Version (Impressum)]({{< relref "/legal/impressum.md" >}})
